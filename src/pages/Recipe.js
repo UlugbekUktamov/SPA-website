@@ -53,8 +53,6 @@ function Recipe() {
                         <div className="row">
                             <h5>Video Recipe</h5>
                             <iframe
-                                width="853"
-                                height="480"
                                 src={`https://www.youtube.com/embed/${recipe.strYoutube.slice(-11)}`}
                                 title={id}
                             >
